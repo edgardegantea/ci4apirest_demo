@@ -1,0 +1,118 @@
+ERROR - 2023-10-28 23:19:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL DEFAULT 0,
+	`estado` tinyint NOT NULL DEFAULT ...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:20:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL DEFAULT 0,
+	`estado` tinyint NOT NULL,
+	`creat...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:20:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL DEFAULT 0,
+	`estado` tinyint NOT NULL,
+	`creat...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:21:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL DEFAULT 0,
+	`estado` tinyint NOT NULL,
+	`creat...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:21:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL,
+	`estado` tinyint NOT NULL,
+	`created_at` dat...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:22:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL,
+	`estado` tinyint NOT NULL,
+	`created_at` dat...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:23:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	`precio` float NOT NULL,
+	`estado` tinyint NOT NULL,
+	`created_at` dat...' at line 5 in /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /run/media/degante/DEV/PASW2023/apirest/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /run/media/degante/DEV/PASW2023/apirest/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /run/media/degante/DEV/PASW2023/apirest/system/Database/Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/degante/DEV/PASW2023/apirest/app/Database/Migrations/2023-10-28-222246_Producto.php(24): CodeIgniter\Database\Forge->createTable()
+#5 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(873): App\Database\Migrations\Producto->up()
+#6 /run/media/degante/DEV/PASW2023/apirest/system/Database/MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 /run/media/degante/DEV/PASW2023/apirest/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 /run/media/degante/DEV/PASW2023/apirest/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 /run/media/degante/DEV/PASW2023/apirest/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
