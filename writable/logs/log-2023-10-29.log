@@ -1,0 +1,28 @@
+ERROR - 2023-10-29 07:45:15 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apirest' in F:\x\PASW2023\apirest\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\x\PASW2023\apirest\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'useradmin', Object(SensitiveParameterValue), 'apirest', 3306, '', 0)
+#1 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 F:\x\PASW2023\apirest\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 F:\x\PASW2023\apirest\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 F:\x\PASW2023\apirest\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\x\PASW2023\apirest\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\x\PASW2023\apirest\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\x\PASW2023\apirest\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apirest' in F:\x\PASW2023\apirest\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 F:\x\PASW2023\apirest\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 F:\x\PASW2023\apirest\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 F:\x\PASW2023\apirest\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 F:\x\PASW2023\apirest\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 F:\x\PASW2023\apirest\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 F:\x\PASW2023\apirest\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 F:\x\PASW2023\apirest\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
